@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#mainTitle {
+    background-color: cornflowerblue;
+    border: 0.188rem solid cornflowerblue;
+    width: 50%;
+    padding: 0.625rem;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.task-form {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.task-form input {
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border-color: cornflowerblue;
+}
+
+.task-form button {
+    color: black;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.list-container {
+    background-color: cornflowerblue;
+    padding: 1rem;
+}
+
+.tasks {
+    padding: 0;
+    gap: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks li {
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.tasks li:hover {
+    background-color: cornsilk;
+    cursor: pointer;
+}
